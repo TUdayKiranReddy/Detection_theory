@@ -88,7 +88,8 @@ for i in pi_0:
 
 # Plotting the V(pi_0) vs pi_0
 plt.plot(pi_0, V_pi0)
+plt.grid()
 plt.xlabel('$\pi_0$')
 plt.ylabel('$V(\pi_0)$')
-plt.savefig('Plot_10e6inst.png')
+plt.savefig('Plot_final.pdf')
 plt.show()
